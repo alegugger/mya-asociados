@@ -57,6 +57,49 @@
     margin-top: 30px;
   }
 
+
+/*formulario contacto*/
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #304A6F;
+}
+
+iframe {
+  display: flex;
+  width: 100%;
+}
+
+.formulario {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+
+
   /*footer*/
 footer {
   margin-top: 150px;
